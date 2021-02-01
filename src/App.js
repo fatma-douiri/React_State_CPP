@@ -48,7 +48,7 @@ export default class App extends Component {
                                           <p>{this.state.bio} </p>
                                       </div>
                                       <div class="button mt-2 d-flex flex-row align-items-center"> 
-                                           <button class="btn btn-sm btn-outline-primary w-100">{this.state.timer}</button> 
+                                           <button class="btn btn-sm btn-outline-primary w-100">{this.state.timer} seconds</button> 
                                            <button class="btn btn-sm btn-primary w-100 ml-2" onClick={()=>{this.setState({ show: !this.state.show, timer:0, })  }}> {this.state.show ? "Show Profile" : "Hide Profile"}</button> </div>
                                       </div>
                                   </div>
